@@ -116,8 +116,8 @@ class AutoGumaTest {
 	@CsvSource({ "PR-Model1, 22, 350, 90, PR-Model1, 22, 350, 90, true",
 				 "PR-Model1, 22, 350, 90, PR-Model2, 22, 350, 90, false",
 				 "PR-Model1, 22, 350, 90, PR-Model1, 18, 350, 90, false",
-				 "PR-Model1, 22, 350, 90, PR-Model1, 22, 360, 90, false",
-				 "PR-Model1, 22, 350, 90, PR-Model2, 22, 360, 95, false"})
+				 "PR-Model1, 22, 350, 90, PR-Model1, 22, 300, 90, false",
+				 "PR-Model1, 22, 350, 90, PR-Model2, 22, 350, 95, false"})
 	void testEqualsObject(String mm1, int p1, int s1, int v1, String mm2, int p2, int s2, int v2, boolean eq) {
 		a.setMarkaModel(mm1);
 		a.setPrecnik(p1);
