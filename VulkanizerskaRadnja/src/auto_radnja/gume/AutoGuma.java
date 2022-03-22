@@ -25,9 +25,19 @@ public class AutoGuma {
 	 */
 	private int visina = -1;
 
+	/**
+	 * Default konstruktor
+	 */
 	public AutoGuma() {
 	}
 
+	/**
+	 * Konstruktor sa svim parametrima
+	 * @param markaModel proizvodjac i model gume
+	 * @param precnik precnik gume
+	 * @param sirina sirina gume
+	 * @param visina visina gume
+	 */
 	public AutoGuma(String markaModel, int precnik, int sirina, int visina) {
 		super();
 		setMarkaModel(markaModel);
